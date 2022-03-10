@@ -869,7 +869,7 @@ end)
 
 getgenv().player_data["player"].OnTeleport:Connect(function(state)
     if state == Enum.TeleportState.Started then
-        syn.queue_on_teleport(game:HttpGet("https://raw.githubusercontent.com/glof2/thuntgui/main/GUI.lua"))
+        syn.queue_on_teleport(game:HttpGet("https://raw.githubusercontent.com/AloneIsCool/Roblox-Scripts-for-hud/main/tressurehunt.lua"))
         can_teleport = false
     end
     if state == Enum.TeleportState.Failed then
